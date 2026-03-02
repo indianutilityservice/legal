@@ -1,1 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terms of Use – Indian Utility Services</title>
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0B0E1A; --card: #111827; --primary: #7C6EE8;
+            --fg: #E2E8F0; --muted: #7588A3; --border: #1E2A40; --radius: 0.6rem;
+        }
+        body { background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 15px; line-height: 1.7; padding: 0 0 60px; }
+        header { background: linear-gradient(135deg, rgba(124,110,232,0.15), rgba(124,110,232,0.03)); border-bottom: 1px solid var(--border); padding: 40px 24px 32px; text-align: center; }
+        header .badge { display: inline-block; background: rgba(124,110,232,0.15); border: 1px solid rgba(124,110,232,0.3); color: var(--primary); font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; padding: 4px 14px; border-radius: 999px; margin-bottom: 16px; }
+        header h1 { font-size: 28px; font-weight: 900; color: var(--fg); margin-bottom: 8px; }
+        header p { color: var(--muted); font-size: 13px; }
+        .container { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+        .section { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px; margin-top: 20px; }
+        .section-header { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; padding-bottom: 14px; border-bottom: 1px solid var(--border); }
+        .icon { width: 36px; height: 36px; border-radius: calc(var(--radius) * 0.8); background: rgba(124,110,232,0.12); display: flex; align-items: center; justify-content: center; font-size: 17px; flex-shrink: 0; }
+        .section-header h2 { font-size: 15px; font-weight: 700; color: var(--fg); }
+        p { color: var(--muted); margin-bottom: 12px; }
+        p:last-child { margin-bottom: 0; }
+        ul { color: var(--muted); padding-left: 20px; margin-bottom: 12px; }
+        ul li { margin-bottom: 6px; }
+        strong { color: var(--fg); font-weight: 600; }
+        .highlight { background: rgba(124,110,232,0.08); border: 1px solid rgba(124,110,232,0.2); border-radius: calc(var(--radius) * 0.7); padding: 14px 18px; margin-top: 12px; }
+        .highlight p { color: var(--fg); font-size: 13px; margin: 0; }
+        .warning { background: rgba(239,68,68,0.07); border: 1px solid rgba(239,68,68,0.2); border-radius: calc(var(--radius) * 0.7); padding: 14px 18px; margin-top: 12px; }
+        .warning p { color: #FCA5A5; font-size: 13px; margin: 0; }
+        footer { text-align: center; color: var(--muted); font-size: 12px; margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--border); }
+        a { color: var(--primary); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
 
+<header>
+    <div class="badge">Legal Document</div>
+    <h1>Terms of Use</h1>
+    <p>Indian Utility Services &nbsp;·&nbsp; Effective Date: March 1, 2026</p>
+</header>
+
+<div class="container">
+
+    <div class="section">
+        <div class="section-header"><div class="icon">📋</div><h2>1. Acceptance of Terms</h2></div>
+        <p>By downloading, registering, or using the <strong>Indian Utility Services</strong> mobile application, you agree to be bound by these Terms of Use. If you do not agree, please uninstall the application and cease use immediately.</p>
+        <p>These Terms apply to all users including regular users, vendors, and referrers.</p>
+    </div>
+
+    <div class="section">
+        <div class="section-header"><div class="icon">🏢</div><h2>2. About the Service</h2></div>
+        <p>Indian Utility Services is a digital utility and payment platform that offers:</p>
+        <ul>
+            <li><strong>Scan & Pay:</strong> Contactless in-store payments at registered vendor outlets via QR code scanning</li>
+            <li><strong>Mobile Recharge:</strong> Prepaid mobile recharge services via IMWallet API</li>
+            <li><strong>BBPS (Bill Payments):</strong> Utility bill payment services via IMWallet API</li>
+            <li><strong>Vendor Dashboard:</strong> Tools for registered vendors to manage payments, settlements, and QR codes</li>
+            <li><strong>Referral Rewards:</strong> Users and vendors earn rewards when their referred members transact on the platform</li>
+        </ul>
+        <p>Scan & Pay transactions are processed through our internal payment system and are <strong>not UPI-based</strong>. They do not appear in standard UPI transaction histories.</p>
+    </div>
+
+    <div class="section">
+        <div class="section-header"><div class="icon">👤</div><h2>3. Account Registration</h2></div>
+        <p>To use the platform, you must register with accurate personal details including your name, phone number, and (for vendors) KYC documents such as PAN and Aadhaar.</p>
+        <p><strong>Account Activation:</strong> New accounts require an activation fee to become active and gain access to platform features. This fee is <strong>non-refundable</strong> once your account has been activated by an administrator.</p>
+        <p>You are responsible for maintaining the confidentiality of your account credentials. Any activity under your account is your responsibility.</p>
+        <div class="warning">
+            <p>⚠️ Do not share your password or account credentials with anyone. Indian Utility Services will never ask for your password.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-header"><div class="icon">💳</div><h2>4. Payments & Transactions</h2></div>
+        <p><strong>Scan & Pay:</strong> When you scan a vendor's QR code and enter an amount, a service charge of 10% is added to the entered amount. The total (amount + service charge) is deducted from your account wallet.</p>
+        <p><strong>Transaction Finality:</strong> All Scan & Pay transactions are final and non-reversible. Once a payment is confirmed, it cannot be cancelled or refunded except under exceptional circumstances reviewed by our support team within the refund window.</p>
+        <p><strong>Recharge & BBPS:</strong> Once a recharge or bill payment is submitted and processed, it cannot be reversed. In case of a failed recharge, please contact support within 24 hours.</p>
+    </div>
+
+    <div class="section">
+        <div class="section-header"><div class="icon">🎁</div><h2>5. Referral Rewards</h2></div>
+        <p>Users and vendors may earn rewards by referring new members to the platform. Reward amounts are credited to your wallet based on the transactional activity of your referred members.</p>
+        <p>Referral rewards are subject to change at any time without prior notice. Indian Utility Services does not guarantee any fixed income or returns from the referral programme.</p>
+        <div class="warning">
+            <p>⚠️ Referral rewards are a platform incentive, not a guaranteed income source. Do not make financial decisions based on projected referral earnings.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-header"><div class="icon">🏪</div><h2>6. Vendor Obligations</h2></div>
+        <p>Vendors registered on the platform agree to:</p>
+        <ul>
+            <li>Provide accurate KYC and bank details for settlement processing</li>
+            <li>Use the platform only for legitimate business transactions</li>
+            <li>Not manipulate transaction data or engage in fraudulent activity</li>
+            <li>Set commission rates honestly and in accordance with platform guidelines</li>
+            <li>Keep QR codes secure and not share them for unauthorised use</li>
+        </ul>
+        <p>Vendor accounts require admin approval before activation. Indian Utility Services reserves the right to reject or deactivate any vendor account at its discretion.</p>
+    </div>
+
+    <div class="section">
+        <div class="section-header"><div class="icon">🚫</div><h2>7. Prohibited Activities</h2></div>
+        <p>Users must not:</p>
+        <ul>
+            <li>Use the platform for illegal transactions or money laundering</li>
+            <li>Create multiple accounts to manipulate referral rewards</li>
+            <li>Attempt to reverse-engineer, hack, or tamper with the application</li>
+            <li>Use the platform to harass, defraud, or harm other users or vendors</li>
+            <li>Provide false KYC or bank information</li>
+        </ul>
+        <p>Violation of these rules will result in immediate account suspension and may be reported to relevant authorities.</p>
+    </div>
+
+    <div class="section">
+        <div class="section-header"><div class="icon">⚖️</div><h2>8. Limitation of Liability</h2></div>
+        <p>Indian Utility Services shall not be liable for:</p>
+        <ul>
+            <li>Losses arising from incorrect transaction amounts entered by users</li>
+            <li>Delays or failures in recharge/BBPS services caused by IMWallet or telecom operators</li>
+            <li>Loss of rewards due to account inactivity or termination</li>
+            <li>Any indirect, incidental, or consequential damages arising from use of the platform</li>
+        </ul>
+        <p>Our total liability in any matter shall not exceed the amount of the disputed transaction.</p>
+    </div>
+
+    <div class="section">
+        <div class="section-header"><div class="icon">🔚</div><h2>9. Termination</h2></div>
+        <p>We reserve the right to suspend or terminate any account that violates these Terms, engages in fraudulent activity, or is inactive for an extended period.</p>
+        <p>You may request account deletion at any time by emailing <a href="mailto:support@indianutilityservices.in">support@indianutilityservices.in</a>. Upon deletion, pending wallet balances and rewards are forfeited.</p>
+    </div>
+
+    <div class="section">
+        <div class="section-header"><div class="icon">🇮🇳</div><h2>10. Governing Law</h2></div>
+        <p>These Terms are governed by the laws of <strong>India</strong>. Any disputes shall be subject to the exclusive jurisdiction of courts in <strong>Kutch, Gujarat, India</strong>.</p>
+    </div>
+
+    <div class="section">
+        <div class="section-header"><div class="icon">📬</div><h2>11. Contact</h2></div>
+        <div class="highlight">
+            <p>
+                <strong>Indian Utility Services</strong><br/>
+                Plot No. 465, Sector 7, Room No. 2, Gandhidham, Kutch, Gujarat – 370201<br/>
+                Email: <a href="mailto:support@indianutilityservices.in">support@indianutilityservices.in</a>
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 Indian Utility Services. UDYAM-GJ-13-0084343. All rights reserved.</p>
+    </footer>
+
+</div>
+</body>
+</html>
